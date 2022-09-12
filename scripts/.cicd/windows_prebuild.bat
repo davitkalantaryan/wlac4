@@ -7,6 +7,9 @@ set scriptDirectory=%~dp0
 cd /D %scriptDirectory%..\..
 set "repositoryRoot=%cd%\"
 
+echo "Windows prebuild will be implemented"
+exit /b 0
+
 git submodule sync --recursive
 git submodule update --init --recursive
 

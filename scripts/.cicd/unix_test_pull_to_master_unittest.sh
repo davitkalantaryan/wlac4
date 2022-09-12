@@ -18,6 +18,9 @@ repositoryRoot=`pwd`
 echo repositoryRoot=$repositoryRoot
 
 
+echo "Unix test pull to master unittest will be implemented!!!"
+exit 0
+
 if [ $# -gt 0 ]; then
 	Configuration=$1
 else

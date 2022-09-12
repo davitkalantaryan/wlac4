@@ -12,6 +12,9 @@ set scriptDirectory=%~dp0
 cd /D %scriptDirectory%..\..
 set "repositoryRoot=%cd%\"
 
+echo "Windows test merge with master build will be implemented"
+exit /b 0
+
 cd "%repositoryRoot%prj\tests\googletest_mult"
 rem msbuild -t:restore -p:RestorePackagesConfig=true
 rem if not "!ERRORLEVEL!"=="0" (exit /b !ERRORLEVEL!)

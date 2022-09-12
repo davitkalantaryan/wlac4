@@ -19,6 +19,9 @@ repositoryRoot=`pwd`
 echo repositoryRoot=$repositoryRoot
 
 
+echo "Unix prebuild will be implemented!!!"
+exit 0
+
 # https://intoli.com/blog/exit-on-errors-in-bash-scripts/
 # exit when any command fails
 set -e

@@ -25,6 +25,9 @@ cd ../..
 repositoryRoot=`pwd`
 echo repositoryRoot=$repositoryRoot
 
+echo "Unix test pull to master will be implemented!!!"
+exit 0
+
 
 # thanks to https://stackoverflow.com/questions/3466166/how-to-check-if-running-in-cygwin-mac-or-linux
 if [[ "$(uname)" == "Darwin" ]]; then
