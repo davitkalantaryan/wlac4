@@ -121,6 +121,9 @@
     <None Include="..\..\docs\includes\pthread.h.md">
       <Filter>files\docs\includes</Filter>
     </None>
+    <None Include="..\..\msbuild_all.bat">
+      <Filter>files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\docs\notes_2022.09.12.txt">

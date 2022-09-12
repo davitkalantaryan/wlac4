@@ -182,7 +182,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -197,7 +197,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -212,7 +212,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -230,7 +230,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -248,7 +248,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -266,7 +266,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -281,7 +281,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -299,7 +299,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
