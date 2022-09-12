@@ -64,7 +64,7 @@ WLAC4_WLAC4_EXPORT ssize_t getline(char** a_lineptr, size_t* a_n, FILE* a_stream
     *a_lineptr = bufptr;
     *a_n = size;
 
-    return p - bufptr - 1;
+    return (ssize_t)(p - bufptr - 1);
 }
 
 

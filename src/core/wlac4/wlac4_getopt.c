@@ -21,9 +21,11 @@ WLAC4_BEGIN_C
 #define	EMSG	""
 #define __progname_m(_path)	(strrchr(_path,'\\')+1)
 
-int	  optreset;
-int	  optopt;
-int	  opterr;
+WLAC4_WLAC4_EXPORT int  optind = 1;
+WLAC4_WLAC4_EXPORT int	optreset;
+WLAC4_WLAC4_EXPORT int	optopt;
+WLAC4_WLAC4_EXPORT int	opterr;
+WLAC4_WLAC4_EXPORT char* optarg = WLAC4_NULL;
 
 /*
  * getopt --
@@ -171,7 +173,7 @@ WLAC4_WLAC4_EXPORT int getopt_long(int nargc, const char* nargv[], const char* o
 }
 
 
-WLAC4_WLAC4_EXPORT int getopt(int nargc, const char* nargv, const char* ostr)
+WLAC4_WLAC4_EXPORT int getopt(int nargc, const char* nargv[], const char* ostr)
 {
 	static const char* __progname = NULL;
 	static const char* place = EMSG;		/* option letter processing */
@@ -228,7 +230,7 @@ WLAC4_WLAC4_EXPORT int getopt(int nargc, const char* nargv, const char* ostr)
 			return (BADCH);
 		}
 		else				/* white space */
-			optarg = nargv[optind];
+			optarg = (char*)nargv[optind];
 		place = EMSG;
 		++optind;
 	}
