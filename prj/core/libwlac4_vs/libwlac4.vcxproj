@@ -306,8 +306,10 @@
   <ItemGroup>
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_empty.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_entry_point.c" />
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_getopt.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_poll.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_pthread.c" />
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_stdio.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_string.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_stdatomic.c" />
   </ItemGroup>

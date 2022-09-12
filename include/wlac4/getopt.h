@@ -25,7 +25,8 @@ WLAC4_BEGIN_C
 extern WLAC4_WLAC4_EXPORT char* optarg;
 extern WLAC4_WLAC4_EXPORT int   optind;
 
-WLAC4_WLAC4_EXPORT int getopt_long(int argc, char* const* argv, const char* shortopts, const struct option* longopts, int* longind);
+WLAC4_WLAC4_EXPORT int getopt_long(int a_argc, const char* a_argv[],const char* a_optstring, const struct option* a_longopts, int* a_longindex);
+WLAC4_WLAC4_EXPORT int getopt(int a_argc, const char* a_argv[], const char* a_optstring);
 
 
 struct option {
