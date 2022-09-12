@@ -37,6 +37,12 @@
     <Filter Include="files\.gitlab\workflows">
       <UniqueIdentifier>{49222729-bd17-4c0c-9ad3-ca315cdb436e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="files\docs">
+      <UniqueIdentifier>{48f85931-3c4a-4ebb-8725-a0f8d6888e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\docs\includes">
+      <UniqueIdentifier>{b0762847-9a35-478d-968b-3e6d20c3a781}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\utils\entry_wlac4_all_overall.cpp">
@@ -100,5 +106,25 @@
     <None Include="..\..\.gitlab\workflows\test_pull_to_master.yml">
       <Filter>files\.gitlab\workflows</Filter>
     </None>
+    <None Include="..\..\.gitmodules">
+      <Filter>files</Filter>
+    </None>
+    <None Include="..\..\docs\README.md">
+      <Filter>files\docs</Filter>
+    </None>
+    <None Include="..\..\docs\includes\getopt.h.md">
+      <Filter>files\docs\includes</Filter>
+    </None>
+    <None Include="..\..\docs\includes\poll.h.md">
+      <Filter>files\docs\includes</Filter>
+    </None>
+    <None Include="..\..\docs\includes\pthread.h.md">
+      <Filter>files\docs\includes</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\docs\notes_2022.09.12.txt">
+      <Filter>files\docs</Filter>
+    </Text>
   </ItemGroup>
 </Project>

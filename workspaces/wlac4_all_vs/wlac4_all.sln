@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wlac4_all", "wlac4_all.vcxproj", "{C0D41E3C-2BF2-40B0-BC52-9686247700E5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "projects", "projects", "{C89DDA52-22E8-474A-81CE-0694BDD995EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{50207F2C-7217-40A9-BCE2-03E70AC26844}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libwlac4", "..\..\prj\core\libwlac4_vs\libwlac4.vcxproj", "{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,9 +39,29 @@ Global
 		{C0D41E3C-2BF2-40B0-BC52-9686247700E5}.Release|x64.Build.0 = Release|x64
 		{C0D41E3C-2BF2-40B0-BC52-9686247700E5}.Release|x86.ActiveCfg = Release|Win32
 		{C0D41E3C-2BF2-40B0-BC52-9686247700E5}.Release|x86.Build.0 = Release|Win32
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Debug|ARM.ActiveCfg = Debug|ARM
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Debug|ARM.Build.0 = Debug|ARM
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Debug|ARM64.Build.0 = Debug|ARM64
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Debug|x64.ActiveCfg = Debug|x64
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Debug|x64.Build.0 = Debug|x64
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Debug|x86.ActiveCfg = Debug|Win32
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Debug|x86.Build.0 = Debug|Win32
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Release|ARM.ActiveCfg = Release|ARM
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Release|ARM.Build.0 = Release|ARM
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Release|ARM64.ActiveCfg = Release|ARM64
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Release|ARM64.Build.0 = Release|ARM64
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Release|x64.ActiveCfg = Release|x64
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Release|x64.Build.0 = Release|x64
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Release|x86.ActiveCfg = Release|Win32
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50207F2C-7217-40A9-BCE2-03E70AC26844} = {C89DDA52-22E8-474A-81CE-0694BDD995EF}
+		{4FBBA8D9-43E9-47D5-AC2B-FC38A5190529} = {50207F2C-7217-40A9-BCE2-03E70AC26844}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {016B0FFE-ED04-428E-AB73-167DC365A98E}
