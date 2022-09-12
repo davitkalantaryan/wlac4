@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="files">
+      <UniqueIdentifier>{fa42faf0-84a2-4762-ade5-72a4d924144c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\scripts">
+      <UniqueIdentifier>{c96c66f7-a901-4d75-a554-dce42dc103e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\scripts\.cicd">
+      <UniqueIdentifier>{9ca5960b-61f1-449a-b407-8dae0fe3fcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\scripts\.raw">
+      <UniqueIdentifier>{3117ec99-2070-4f1f-8cbb-2f982057011c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\.github">
+      <UniqueIdentifier>{389bbcff-6eef-4aa3-ad78-56bdd851d1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\.github\workflows">
+      <UniqueIdentifier>{766dd7d2-3c6f-4a21-9348-fc7895e02848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\.gitlab">
+      <UniqueIdentifier>{20a0946c-eee8-4115-ae42-8e83cad6c8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\.gitlab\workflows">
+      <UniqueIdentifier>{49222729-bd17-4c0c-9ad3-ca315cdb436e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\docs">
+      <UniqueIdentifier>{48f85931-3c4a-4ebb-8725-a0f8d6888e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="files\docs\includes">
+      <UniqueIdentifier>{b0762847-9a35-478d-968b-3e6d20c3a781}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\utils\entry_wlac4_all_overall.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\wlac4\wlac4_internal_header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\.gitattributes">
+      <Filter>files</Filter>
+    </None>
+    <None Include="..\..\.gitignore">
+      <Filter>files</Filter>
+    </None>
+    <None Include="..\..\LICENSE">
+      <Filter>files</Filter>
+    </None>
+    <None Include="..\..\README.md">
+      <Filter>files</Filter>
+    </None>
+    <None Include="..\..\scripts\unix_per_session.sh">
+      <Filter>files\scripts</Filter>
+    </None>
+    <None Include="..\..\scripts\.cicd\unix_prebuild.sh">
+      <Filter>files\scripts\.cicd</Filter>
+    </None>
+    <None Include="..\..\scripts\.cicd\unix_test_pull_to_master_build.sh">
+      <Filter>files\scripts\.cicd</Filter>
+    </None>
+    <None Include="..\..\scripts\.cicd\unix_test_pull_to_master_unittest.sh">
+      <Filter>files\scripts\.cicd</Filter>
+    </None>
+    <None Include="..\..\scripts\.cicd\windows_prebuild.bat">
+      <Filter>files\scripts\.cicd</Filter>
+    </None>
+    <None Include="..\..\scripts\.cicd\windows_test_pull_to_master_build.bat">
+      <Filter>files\scripts\.cicd</Filter>
+    </None>
+    <None Include="..\..\scripts\.cicd\windows_test_pull_to_master_unittest.bat">
+      <Filter>files\scripts\.cicd</Filter>
+    </None>
+    <None Include="..\..\scripts\.raw\_windows_print_directory_content.bat">
+      <Filter>files\scripts\.raw</Filter>
+    </None>
+    <None Include="..\..\.github\workflows\test_pull_to_master.yml">
+      <Filter>files\.github\workflows</Filter>
+    </None>
+    <None Include="..\..\.gitlab-ci.yml">
+      <Filter>files</Filter>
+    </None>
+    <None Include="..\..\.gitlab\workflows\deploy.yml">
+      <Filter>files\.gitlab\workflows</Filter>
+    </None>
+    <None Include="..\..\.gitlab\workflows\prebuild.yml">
+      <Filter>files\.gitlab\workflows</Filter>
+    </None>
+    <None Include="..\..\.gitlab\workflows\test_pull_to_master.yml">
+      <Filter>files\.gitlab\workflows</Filter>
+    </None>
+    <None Include="..\..\.gitmodules">
+      <Filter>files</Filter>
+    </None>
+    <None Include="..\..\docs\README.md">
+      <Filter>files\docs</Filter>
+    </None>
+    <None Include="..\..\docs\includes\getopt.h.md">
+      <Filter>files\docs\includes</Filter>
+    </None>
+    <None Include="..\..\docs\includes\poll.h.md">
+      <Filter>files\docs\includes</Filter>
+    </None>
+    <None Include="..\..\docs\includes\pthread.h.md">
+      <Filter>files\docs\includes</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\docs\notes_2022.09.12.txt">
+      <Filter>files\docs</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
