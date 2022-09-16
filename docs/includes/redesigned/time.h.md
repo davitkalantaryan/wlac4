@@ -7,7 +7,7 @@ This header implements some data and functions decelared in the corresponding
   
 ## functions 
   
- 1.  timegm  [linux docs](https://linux.die.net/man/3/timegm)  
+ 1.  ``timegm``  [linux docs](https://linux.die.net/man/3/timegm)  
   
   
 ## data  

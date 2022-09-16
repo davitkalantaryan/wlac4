@@ -7,17 +7,17 @@ This header implements some data and functions decelared in the corresponding
   
 ## functions 
   
- 1.  getline  [linux docs](https://linux.die.net/man/3/getline)  
+ 1.  ``getline``  [linux docs](https://linux.die.net/man/3/getline)  
   
   
 ## data  
   
- 1. int STDIN_FILENO  
+ 1. ``int STDIN_FILENO``  
    
   
 ## types  
   
- 1.  typedef int ssize_t;  
+ 1.  ``typedef int ssize_t;``  
   
   
 ## macroses  

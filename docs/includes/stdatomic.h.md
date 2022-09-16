@@ -7,8 +7,8 @@ This header implements some data and functions decelared in the corresponding
   
 ## functions 
   
- 1.  atomic_init        [linux docs](https://nxmnpg.lemoda.net/3/atomic_init)  
- 2.  atomic_fetch_sub   [linux docs](https://nxmnpg.lemoda.net/3/atomic_fetch_sub)  
+ 1.  ``atomic_init``        [linux docs](https://nxmnpg.lemoda.net/3/atomic_init)  
+ 2.  ``atomic_fetch_sub``   [linux docs](https://nxmnpg.lemoda.net/3/atomic_fetch_sub)  
   
   
 ## data  
@@ -17,7 +17,7 @@ This header implements some data and functions decelared in the corresponding
   
 ## types  
   
- 1.  typedef unsigned int atomic_uint;  
+ 1.  ``typedef unsigned int atomic_uint;``  
   
   
 ## macroses  

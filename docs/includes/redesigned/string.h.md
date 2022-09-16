@@ -7,7 +7,7 @@ This header implements some data and functions decelared in the corresponding
   
 ## functions 
   
- 1.  memmem     [linux docs](https://linux.die.net/man/3/memmem)  
+ 1.  ``memmem``     [linux docs](https://linux.die.net/man/3/memmem)  
   
   
 ## data  

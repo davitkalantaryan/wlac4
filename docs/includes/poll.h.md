@@ -7,7 +7,7 @@ This header implements some data and functions decelared in the corresponding
   
 ## functions 
   
- 1.  poll  [linux docs](https://linux.die.net/man/3/poll)  
+ 1.  ``poll``  [linux docs](https://linux.die.net/man/3/poll)  
   
   
 ## data  
@@ -16,7 +16,7 @@ This header implements some data and functions decelared in the corresponding
   
 ## types  
   
- 1.  typedef nfds_t  
+ 1.  ``typedef nfds_t``  
   
   
 ## macroses  
