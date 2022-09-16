@@ -18,3 +18,14 @@ If something is missing here, then probably that can be found on [WLAC2](https:/
  3. [pthread.h](docs/includes/pthread.h.md)  
  4. [stdatomic.h](docs/includes/stdatomic.h.md)  
  5. [syslog.h](docs/includes/syslog.h.md)  
+   
+ ## Redesigned headers  
+   
+ Redesigned headers are the headers those exist also for Windows Microsoft compiler, but they are missing some functions or data. 
+ In this case the same header is include in the redesigned folder. The regular way of content is this header is including standard header
+ then declaration of missing symbols (functions and data).  
+ Below is the list of redesigned headers:  
+   
+  1. [redesigned/stdio.h](docs/includes/redesigned/stdio.h.md)  
+  2. [redesigned/string.h](docs/includes/redesigned/string.h.md)  
+  3. [redesigned/time.h](docs/includes/redesigned/time.h.md)  

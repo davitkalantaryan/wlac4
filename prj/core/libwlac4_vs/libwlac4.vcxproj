@@ -182,7 +182,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -197,7 +197,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -212,7 +212,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -230,7 +230,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -248,7 +248,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -266,7 +266,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -281,7 +281,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
@@ -299,16 +299,19 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <ImportLibrary>$(OutDir)..\lib\$(TargetName).lib</ImportLibrary>
+      <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
       <AdditionalDependencies />
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_empty.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_entry_point.c" />
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_getopt.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_poll.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_pthread.c" />
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_stdio.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_string.c" />
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_time.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_stdatomic.c" />
   </ItemGroup>
   <ItemGroup>

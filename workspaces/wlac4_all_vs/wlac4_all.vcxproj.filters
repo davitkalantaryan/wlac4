@@ -43,6 +43,9 @@
     <Filter Include="files\docs\includes">
       <UniqueIdentifier>{b0762847-9a35-478d-968b-3e6d20c3a781}</UniqueIdentifier>
     </Filter>
+    <Filter Include="files\docs\includes\redesigned">
+      <UniqueIdentifier>{12516adb-9ef3-45bf-99ec-b8638aba4fd5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\utils\entry_wlac4_all_overall.cpp">
@@ -120,6 +123,24 @@
     </None>
     <None Include="..\..\docs\includes\pthread.h.md">
       <Filter>files\docs\includes</Filter>
+    </None>
+    <None Include="..\..\msbuild_all.bat">
+      <Filter>files</Filter>
+    </None>
+    <None Include="..\..\docs\includes\stdatomic.h.md">
+      <Filter>files\docs\includes</Filter>
+    </None>
+    <None Include="..\..\docs\includes\syslog.h.md">
+      <Filter>files\docs\includes</Filter>
+    </None>
+    <None Include="..\..\docs\includes\redesigned\stdio.h.md">
+      <Filter>files\docs\includes\redesigned</Filter>
+    </None>
+    <None Include="..\..\docs\includes\redesigned\string.h.md">
+      <Filter>files\docs\includes\redesigned</Filter>
+    </None>
+    <None Include="..\..\docs\includes\redesigned\time.h.md">
+      <Filter>files\docs\includes\redesigned</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>

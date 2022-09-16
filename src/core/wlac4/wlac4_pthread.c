@@ -305,7 +305,7 @@ WLAC4_WLAC4_EXPORT int pthread_key_create(pthread_key_t* a_key, void (*a_destruc
 		return ENOMEM;
 	}
 
-	(*a_key)->flsKey = FlsAlloc(a_destructor);
+	(*a_key)->flsKey = FlsAlloc((PFLS_CALLBACK_FUNCTION)a_destructor);
 	if ((*a_key)->flsKey == FLS_OUT_OF_INDEXES) {
 		free(*a_key);
 		return FLS_OUT_OF_INDEXES;

@@ -309,8 +309,14 @@
     <None Include="..\..\docs\includes\getopt.h.md" />
     <None Include="..\..\docs\includes\poll.h.md" />
     <None Include="..\..\docs\includes\pthread.h.md" />
+    <None Include="..\..\docs\includes\redesigned\stdio.h.md" />
+    <None Include="..\..\docs\includes\redesigned\string.h.md" />
+    <None Include="..\..\docs\includes\redesigned\time.h.md" />
+    <None Include="..\..\docs\includes\stdatomic.h.md" />
+    <None Include="..\..\docs\includes\syslog.h.md" />
     <None Include="..\..\docs\README.md" />
     <None Include="..\..\LICENSE" />
+    <None Include="..\..\msbuild_all.bat" />
     <None Include="..\..\README.md" />
     <None Include="..\..\scripts\.cicd\unix_prebuild.sh" />
     <None Include="..\..\scripts\.cicd\unix_test_pull_to_master_build.sh" />
