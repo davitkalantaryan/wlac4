@@ -11,6 +11,8 @@
 WLAC4_BEGIN_C
 
 
+// We will not use WSAPoll (https://docs.microsoft.com/en-us/windows/win32/api/winsock2/nf-winsock2-wsapoll) 
+// because of some restrictions
 WLAC4_WLAC4_EXPORT int poll(struct pollfd a_fds[], nfds_t a_nfds, int a_timeout)
 {
 	fd_set rdfds, wrfds, erfds;

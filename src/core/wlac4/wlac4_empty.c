@@ -5,20 +5,12 @@
 // created by:		Davit Kalantaryan (davit.kalantaryan@gmail.com)
 //
 
-#include <redesigned/time.h>
 #include <syslog.h>
 
 
 WLAC4_BEGIN_C
 
 
-
-
-WLAC4_WLAC4_EXPORT time_t timegm(struct tm* a_tm)
-{
-	(void)a_tm;
-	return 0;
-}
 
 
 WLAC4_WLAC4_EXPORT void syslog(int a_priority, const char* a_format, ...)
