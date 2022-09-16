@@ -2,7 +2,7 @@
   
 This header implements some data and functions decelared in the corresponding 
 [GNU header](https://github.com/gcc-mirror/gcc/blob/master/gcc/ginclude/stdatomic.h).  
-[file inrepo](../../include/wlac4/stdatomic.h)  
+[file in the repo](../../include/wlac4/stdatomic.h)  
   
   
 ## functions 
