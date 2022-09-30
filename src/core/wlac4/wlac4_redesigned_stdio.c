@@ -54,7 +54,7 @@ WLAC4_WLAC4_EXPORT ssize_t getline(char** a_lineptr, size_t* a_n, FILE* a_stream
             }
         }
         *p++ = c;
-        if (c == '\a_n') {
+        if (c == '\n') {
             break;
         }
         c = fgetc(a_stream);
