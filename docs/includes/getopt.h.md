@@ -2,7 +2,7 @@
   
 This header implements some data and functions decelared in the corresponding 
 [GNU header](https://www.gnu.org/software/gnulib/manual/html_node/getopt_002eh.html).  
-[file inrepo](../../include/wlac4/getopt.h)  
+[file in the repo](../../include/wlac4/getopt.h)  
   
   
 ## functions 
