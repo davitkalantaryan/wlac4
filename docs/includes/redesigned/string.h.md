@@ -2,7 +2,7 @@
   
 This header implements some data and functions decelared in the corresponding 
 [GNU header](https://pubs.opengroup.org/onlinepubs/7908799/xsh/string.h.html).  
-[file in the repo](../../include/wlac4/redesigned/string.h)  
+[file in the repo](../../../include/wlac4/redesigned/string.h)  
   
   
 ## functions 

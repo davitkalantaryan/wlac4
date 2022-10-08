@@ -2,7 +2,7 @@
   
 This header implements some data and functions decelared in the corresponding 
 [GNU header](https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/pthread.h.html).  
-[file inrepo](../../include/wlac4/pthread.h)  
+[file in the repo](../../include/wlac4/pthread.h)  
   
   
 ## functions 

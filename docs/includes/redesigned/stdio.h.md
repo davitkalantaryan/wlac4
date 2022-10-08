@@ -1,8 +1,8 @@
 # redesigned/stdio.h  
   
 This header implements some data and functions decelared in the corresponding 
-[GNU header](https://pubs.opengroup.org/onlinepubs/7908799/xsh/string.h.html).  
-[file in the repo](../../include/wlac4/redesigned/string.h)  
+[GNU header](https://man7.org/linux/man-pages/man0/stdio.h.0p.html).  
+[file in the repo](../../../include/wlac4/redesigned/stdio.h)  
   
   
 ## functions 
