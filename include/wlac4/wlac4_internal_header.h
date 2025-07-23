@@ -11,12 +11,16 @@
 #include <wlac4_internal_header_base.h>
 
 #ifdef _MSC_VER
-#pragma include_alias( <stdio.h>, <redesigned/stdio.h> )
-#pragma include_alias( "stdio.h", "redesigned/stdio.h" )
-#pragma include_alias( <time.h>, <redesigned/time.h> )
-#pragma include_alias( "time.h", "redesigned/time.h" )
-#pragma include_alias( <string.h>, <redesigned/string.h> )
-#pragma include_alias( "string.h", "redesigned/string.h" )
+#pragma include_alias( <stdio.h>, <other/redesigned/stdio.h> )
+#pragma include_alias( "stdio.h", "other/redesigned/stdio.h" )
+#pragma include_alias( <time.h>, <other/redesigned/time.h> )
+#pragma include_alias( "time.h", "other/redesigned/time.h" )
+#pragma include_alias( <string.h>, <other/redesigned/string.h> )
+#pragma include_alias( "string.h", "other/redesigned/string.h" )
+#pragma include_alias( <signal.h>, <other/redesigned/signal.h> )
+#pragma include_alias( "signal.h", "other/redesigned/signal.h" )
+#pragma include_alias( <sys/types.h>, <other/redesigned/sys/types.h> )
+#pragma include_alias( "sys/types.h", "other/redesigned/sys/types.h" )
 #endif  // #ifdef _MSC_VER
 
 

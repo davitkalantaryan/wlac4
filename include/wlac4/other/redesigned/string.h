@@ -9,9 +9,14 @@
 #define WLAC4_INCLUDE_WLAC4_REDESIGNED_STRING_H
 
 #include <wlac4_exports.h>
+#ifndef WLAC4_STRING_H_REDIRECT_DONE
 #pragma include_alias( <string.h>, <string.h> )
 #pragma include_alias( "string.h", "string.h" )
+#define WLAC4_STRING_H_REDIRECT_DONE
+#endif
+#include <cinternal/disable_compiler_warnings.h>
 #include <string.h>
+#include <cinternal/undisable_compiler_warnings.h>
 
 WLAC4_BEGIN_C
 

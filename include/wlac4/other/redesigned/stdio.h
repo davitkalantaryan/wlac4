@@ -9,9 +9,14 @@
 #define WLAC4_INCLUDE_WLAC4_REDESIGNED_STDIO_H
 
 #include <wlac4_exports.h>
+#ifndef WLAC4_STDIO_H_REDIRECT_DONE
 #pragma include_alias( <stdio.h>, <stdio.h> )
 #pragma include_alias( "stdio.h", "stdio.h" )
+#define WLAC4_STDIO_H_REDIRECT_DONE
+#endif
+#include <cinternal/disable_compiler_warnings.h>
 #include <stdio.h>
+#include <cinternal/undisable_compiler_warnings.h>
 
 WLAC4_BEGIN_C
 

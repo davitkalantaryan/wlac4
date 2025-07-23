@@ -9,9 +9,14 @@
 #define WLAC4_INCLUDE_WLAC4_REDESIGNED_TIME_H
 
 #include <wlac4_exports.h>
+#ifndef WLAC4_TIME_H_REDIRECT_DONE
 #pragma include_alias( <time.h>, <time.h> )
 #pragma include_alias( "time.h", "time.h" )
+#define WLAC4_TIME_H_REDIRECT_DONE
+#endif
+#include <cinternal/disable_compiler_warnings.h>
 #include <time.h>
+#include <cinternal/undisable_compiler_warnings.h>
 
 WLAC4_BEGIN_C
 
