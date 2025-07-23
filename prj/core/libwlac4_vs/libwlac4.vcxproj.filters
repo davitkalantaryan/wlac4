@@ -72,6 +72,9 @@
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_signaling.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_user_group_handling.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\wlac4\getopt.h">
@@ -132,6 +135,15 @@
       <Filter>Header Files\include\wlac4</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\include\wlac4\unistd.h">
+      <Filter>Header Files\include\wlac4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\grp.h">
+      <Filter>Header Files\include\wlac4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\pwd.h">
+      <Filter>Header Files\include\wlac4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\wlac4_user_group_handling.h">
       <Filter>Header Files\include\wlac4</Filter>
     </ClInclude>
   </ItemGroup>

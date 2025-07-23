@@ -12,8 +12,6 @@
 
 #include <cinternal/internal_header.h>
 
-#if defined(_MSC_VER)
-
 #include <wlac4_exports.h>
 #include <other/redesigned/sys/types.h>
 #include <cinternal/disable_compiler_warnings.h>
@@ -22,18 +20,20 @@
 #include <Windows.h>
 #include <cinternal/undisable_compiler_warnings.h>
 
-#ifndef MAXHOSTNAMELEN
-#define        MAXHOSTNAMELEN  64
-#endif
-
 
 CPPUTILS_BEGIN_C
 
-WLAC4_WLAC4_EXPORT uid_t getuid(void);
-WLAC4_WLAC4_EXPORT gid_t getgid(void);
+
+#ifndef MAXHOSTNAMELEN
+#define MAXHOSTNAMELEN  64
+#endif
+
+WLAC4_WLAC4_EXPORT uid_t getuid(void) CPPUTILS_NOEXCEPT;
+WLAC4_WLAC4_EXPORT uid_t geteuid(void) CPPUTILS_NOEXCEPT;
+WLAC4_WLAC4_EXPORT gid_t getgid(void) CPPUTILS_NOEXCEPT;
+WLAC4_WLAC4_EXPORT gid_t getegid(void) CPPUTILS_NOEXCEPT;
 
 CPPUTILS_END_C
 
 
-#endif  //  #if defined(_MSC_VER)
 #endif  //  #ifndef WLAC4_INCLUDE_WLAC4_UNISTD_H

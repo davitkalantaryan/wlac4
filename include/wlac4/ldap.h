@@ -46,6 +46,7 @@ static inline int ldap_simple_bind_s_inline(LDAP* a_ld, const char* a_who, const
     return ldap_simple_bind_sA(a_ld, pcWho, pcPasswd);
 }
 #define ldap_simple_bind_s ldap_simple_bind_s_inline
+#define ldap_unbind_ext(_ld,_sctrls,_cctrls)	ldap_unbind((_ld))
 
 #ifndef LDAP_OPT_NETWORK_TIMEOUT
 #define LDAP_OPT_NETWORK_TIMEOUT    LDAP_OPT_TIMELIMIT

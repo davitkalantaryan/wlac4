@@ -322,15 +322,18 @@
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_time.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_signaling.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_stdatomic.c" />
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_user_group_handling.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\wlac4\getopt.h" />
+    <ClInclude Include="..\..\..\include\wlac4\grp.h" />
     <ClInclude Include="..\..\..\include\wlac4\lber.h" />
     <ClInclude Include="..\..\..\include\wlac4\ldap.h" />
     <ClInclude Include="..\..\..\include\wlac4\linux\limits.h" />
     <ClInclude Include="..\..\..\include\wlac4\netdb.h" />
     <ClInclude Include="..\..\..\include\wlac4\poll.h" />
     <ClInclude Include="..\..\..\include\wlac4\pthread.h" />
+    <ClInclude Include="..\..\..\include\wlac4\pwd.h" />
     <ClInclude Include="..\..\..\include\wlac4\redesigned\stdio.h" />
     <ClInclude Include="..\..\..\include\wlac4\redesigned\string.h" />
     <ClInclude Include="..\..\..\include\wlac4\redesigned\time.h" />
@@ -343,6 +346,7 @@
     <ClInclude Include="..\..\..\include\wlac4\wlac4_exports.h" />
     <ClInclude Include="..\..\..\include\wlac4\wlac4_internal_header.h" />
     <ClInclude Include="..\..\..\include\wlac4\wlac4_internal_header_base.h" />
+    <ClInclude Include="..\..\..\include\wlac4\wlac4_user_group_handling.h" />
     <ClInclude Include="..\..\..\src\core\wlac4\wlac4_private_data.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

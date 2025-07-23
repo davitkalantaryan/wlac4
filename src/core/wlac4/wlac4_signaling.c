@@ -133,22 +133,6 @@ static void InitSigActionFromSystemTable(int a_sig, struct sigaction* a_pThreadA
 }
 
 
-static void DoocsWlacSignalizngCleanupRoutine(void)
-{
-	CloseHandle(s_mutexForProcessSigData);
-    TlsFree(s_indexForThreadLocalData);
-}
-
-
-CPPUTILS_C_CODE_INITIALIZER(DoocsWlacSignalizngInitializationRoutine)
-{
-	atexit(&DoocsWlacSignalizngCleanupRoutine);
-    s_indexForThreadLocalData = TlsAlloc();
-	s_mutexForProcessSigData = CreateMutex(CPPUTILS_NULL, FALSE, CPPUTILS_NULL);
-	memset(&s_processSignalData, 0, sizeof(struct StrSignalData));  // this is not needed
-}
-
-
 static struct SThreadLocalData* WlacGetThreadLocalData(void)
 {
     struct SThreadLocalData* pThreadLocalData = CPPUTILS_STATIC_CAST(struct SThreadLocalData*, TlsGetValue(s_indexForThreadLocalData));
@@ -173,5 +157,22 @@ static struct SThreadLocalData* WlacGetThreadLocalData(void)
 
     return pThreadLocalData;
 }
+
+
+static void DoocsWlacSignalizngCleanupRoutine(void)
+{
+    CloseHandle(s_mutexForProcessSigData);
+    TlsFree(s_indexForThreadLocalData);
+}
+
+
+CPPUTILS_C_CODE_INITIALIZER(DoocsWlacSignalizngInitializationRoutine)
+{
+    atexit(&DoocsWlacSignalizngCleanupRoutine);
+    s_indexForThreadLocalData = TlsAlloc();
+    s_mutexForProcessSigData = CreateMutex(CPPUTILS_NULL, FALSE, CPPUTILS_NULL);
+    memset(&s_processSignalData, 0, sizeof(struct StrSignalData));  // this is not needed
+}
+
 
 WLAC4_END_C
