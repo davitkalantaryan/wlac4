@@ -44,52 +44,52 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>DynamicLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -101,34 +101,41 @@
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\..\common\common_vs\wlac4_common.props" />
+    <Import Project="..\..\common\common_vs\wlac4_common_ext.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="..\..\common\common_vs\wlac4_common.props" />
+    <Import Project="..\..\common\common_vs\wlac4_common_ext.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\..\common\common_vs\wlac4_common.props" />
+    <Import Project="..\..\common\common_vs\wlac4_common_ext.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\..\common\common_vs\wlac4_common.props" />
+    <Import Project="..\..\common\common_vs\wlac4_common_ext.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\..\common\common_vs\wlac4_common.props" />
+    <Import Project="..\..\common\common_vs\wlac4_common_ext.props" />
   </ImportGroup>
   <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="PropertySheets">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\..\common\common_vs\wlac4_common.props" />
+    <Import Project="..\..\common\common_vs\wlac4_common_ext.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\..\common\common_vs\wlac4_common.props" />
+    <Import Project="..\..\common\common_vs\wlac4_common_ext.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
     <Import Project="..\..\common\common_vs\wlac4_common.props" />
+    <Import Project="..\..\common\common_vs\wlac4_common_ext.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -183,7 +190,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Wldap32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
@@ -198,7 +205,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Wldap32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
@@ -213,7 +220,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Wldap32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -231,7 +238,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Wldap32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
@@ -249,7 +256,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Wldap32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
@@ -267,7 +274,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Wldap32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -282,7 +289,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Wldap32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -300,30 +307,39 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ImportLibrary>$(OutDir)..\lib\$(ProjectName).lib</ImportLibrary>
-      <AdditionalDependencies />
+      <AdditionalDependencies>Wldap32.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_empty.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_entry_point.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_getopt.c" />
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_other.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_poll.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_pthread.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_stdio.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_string.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_time.c" />
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_signaling.c" />
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_stdatomic.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\include\wlac4\getopt.h" />
+    <ClInclude Include="..\..\..\include\wlac4\lber.h" />
+    <ClInclude Include="..\..\..\include\wlac4\ldap.h" />
     <ClInclude Include="..\..\..\include\wlac4\linux\limits.h" />
+    <ClInclude Include="..\..\..\include\wlac4\netdb.h" />
     <ClInclude Include="..\..\..\include\wlac4\poll.h" />
     <ClInclude Include="..\..\..\include\wlac4\pthread.h" />
     <ClInclude Include="..\..\..\include\wlac4\redesigned\stdio.h" />
     <ClInclude Include="..\..\..\include\wlac4\redesigned\string.h" />
     <ClInclude Include="..\..\..\include\wlac4\redesigned\time.h" />
     <ClInclude Include="..\..\..\include\wlac4\stdatomic.h" />
+    <ClInclude Include="..\..\..\include\wlac4\strings.h" />
     <ClInclude Include="..\..\..\include\wlac4\syslog.h" />
+    <ClInclude Include="..\..\..\include\wlac4\sys\ioctl.h" />
+    <ClInclude Include="..\..\..\include\wlac4\sys\socket.h" />
+    <ClInclude Include="..\..\..\include\wlac4\unistd.h" />
     <ClInclude Include="..\..\..\include\wlac4\wlac4_exports.h" />
     <ClInclude Include="..\..\..\include\wlac4\wlac4_internal_header.h" />
     <ClInclude Include="..\..\..\include\wlac4\wlac4_internal_header_base.h" />

@@ -34,6 +34,9 @@
     <Filter Include="Header Files\src\core\wlac4">
       <UniqueIdentifier>{f5ee6992-105c-4939-b82c-5fdeee9a23f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\include\wlac4\sys">
+      <UniqueIdentifier>{d21660eb-9909-402e-bf24-782760b1adda}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_empty.c">
@@ -61,6 +64,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\src\core\wlac4\wlac4_redesigned_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_other.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\core\wlac4\wlac4_signaling.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -102,6 +111,27 @@
       <Filter>Header Files\src\core\wlac4</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\include\wlac4\wlac4_internal_header_base.h">
+      <Filter>Header Files\include\wlac4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\sys\ioctl.h">
+      <Filter>Header Files\include\wlac4\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\sys\socket.h">
+      <Filter>Header Files\include\wlac4\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\lber.h">
+      <Filter>Header Files\include\wlac4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\ldap.h">
+      <Filter>Header Files\include\wlac4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\netdb.h">
+      <Filter>Header Files\include\wlac4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\strings.h">
+      <Filter>Header Files\include\wlac4</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\wlac4\unistd.h">
       <Filter>Header Files\include\wlac4</Filter>
     </ClInclude>
   </ItemGroup>

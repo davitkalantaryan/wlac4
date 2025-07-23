@@ -30,6 +30,7 @@
 #endif
 #include <cinternal/undisable_compiler_warnings.h>
 
+WLAC4_BEGIN_C
 
 WLAC4_WLAC4_EXPORT int ldap_initialize(LDAP** ldp, const char* uri);
 #ifdef ldap_simple_bind_s
@@ -74,6 +75,7 @@ static inline int ldap_simple_bind_s_inline(LDAP* a_ld, const char* a_who, const
 #define LDAP_SCOPE_DEFAULT          8
 #endif
 
+WLAC4_END_C
 
 #endif  //  #if defined(_MSC_VER)
 

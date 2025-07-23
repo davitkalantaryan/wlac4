@@ -5,7 +5,7 @@
 // created by:		Davit Kalantaryan (davit.kalantaryan@gmail.com)
 //
 
-#include <redesigned/string.h>
+#include <other/redesigned/string.h>
 
 
 WLAC4_BEGIN_C

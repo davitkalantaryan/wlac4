@@ -5,7 +5,7 @@
 // created by:		Davit Kalantaryan (davit.kalantaryan@gmail.com)
 //
 
-#include <redesigned/time.h>
+#include <other/redesigned/time.h>
 #include <stdlib.h>
 #include <WinSock2.h>
 #include <WS2tcpip.h>

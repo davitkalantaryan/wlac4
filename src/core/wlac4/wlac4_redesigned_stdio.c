@@ -5,7 +5,7 @@
 // created by:		Davit Kalantaryan (davit.kalantaryan@gmail.com)
 //
 
-#include <redesigned/stdio.h>
+#include <other/redesigned/stdio.h>
 #include <stdlib.h>
 #include <malloc.h>
 #include <stddef.h>
